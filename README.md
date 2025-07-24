@@ -10,7 +10,7 @@ to [AC-Bookmarklet](https://github.com/arabcoders/ac-bookmarklet) instance.
 ## Installation from store
 
 - Install from [Firefox](https://addons.mozilla.org/en-US/firefox/addon/ac-bookmarklet-extension/)
-- Install from [Chrome/Chromium Browsers](https://chromewebstore.google.com/detail/ac-bookmarklet-extension/)
+- Install from [Chrome/Chromium Browsers](https://chromewebstore.google.com/detail/ac-bookmarklet-extension/mggohefeggpibffehlcdagelkippfjhk)
 
 ## Usage
 
