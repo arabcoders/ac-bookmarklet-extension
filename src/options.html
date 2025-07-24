@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Options menu for AC-Bookmarklet Extension</title>
+    <link rel="stylesheet" href="css/bulma.css"/>
+</head>
+
+<body class="container">
+<div class="columns is-multiline">
+    <div class="column is-12">
+        <form id="opts_conf" class="content m-1">
+            <div class="field">
+                <label class="label" for="opts_url">URL</label>
+                <div class="control">
+                    <input type="text" class="input" id="opts_url" placeholder="https://ac_bookmarklet.example.org">
+                </div>
+                <span class="help">URL to your AC-Bookmarklet instance</span>
+            </div>
+
+            <div class="field">
+                <label class="label" for="opts_apikey">API Key</label>
+                <div class="control">
+                    <input type="text" class="input" id="opts_apikey" placeholder="Leave empty to not use API key.">
+                </div>
+                <span class="help">API Key for your AC-Bookmarklet instance if enabled.</span>
+            </div>
+
+            <div class="field has-text-danger">
+                <p id="error_msg"></p>
+            </div>
+
+            <div class="field is-grouped">
+                <div class="control is-expanded">
+                    <button class="button is-primary is-fullwidth" type="submit">Save</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+
+<script src="options.js"></script>
+</body>
+</html>
