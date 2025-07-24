@@ -25,13 +25,13 @@
     "page": "options.html",
     "open_in_tab": false
   },
-  "host_permissions": [
-    "https://dash.m7eesn.net/api/links/*"
-  ],
   "browser_specific_settings": {
     "gecko": {
       "id": "acbookmarklet@arabcoders.org",
       "strict_min_version": "113.0"
     }
+  },
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'self';"
   }
 }
